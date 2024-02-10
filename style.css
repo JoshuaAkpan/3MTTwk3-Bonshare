@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+    --primary-color: hsla(0, 0%, 100%, 1);
+    --secondary-color: hsla(0, 0%, 0%, 1);
+}
+
+
+
+
+header > img {
+    position: absolute;
+    width: 115.5px;
+    height: 32px;
+    top: 40px;
+    left: 80px;
+    z-index: 10000;
+}
+
+
+/* HERO SECTION STYLES */
+
+.hero{
+    background-image: url('/assets/images/hero-bg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 113vh;
+}
+
+.hero-content{
+    display: flex;
+}
+
+.hero-text{
+    flex: 2;
+}
+
+.hero-image{
+    flex: 1;
+    position: relative;
+    text-align: center;
+    height: 90vh;
+    top: 180px;
+    left: -90px;
+}
+
+
+.hero-tiny-image1, .hero-tiny-image2, .hero-tiny-image3, .hero-tiny-image4 {
+    position: absolute;
+}
+
+.hero-tiny-image1{
+    top: 10px;
+    left: 390px;
+}
+.hero-tiny-image2{
+    top: 160px;
+    left: 17px;
+}
+.hero-tiny-image3{
+    bottom: 280px;
+    left: 345px;
+}
+.hero-tiny-image4{
+    bottom: 145px;
+    left: 55px;
+}
+
+.hero-heading-text{
+    position: relative;
+    top: 221px;
+    left: 160px;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 84px;
+    letter-spacing: 0em;
+    width: 511px;
+    height: 168px;
+    color: var(--primary-color);
+}
+
+.hero-para-text{
+    position: relative;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    width: 511px;
+    height: 72px;
+    top: 250px;
+    left: 160px;
+    
+    color: var(--primary-color);
+}
+
+
+.hero-arrow{
+    position: relative;
+    top: 213px;
+    left: 160px;
+    
+}
+
+.hero-line{
+    position: relative;
+    top: 340px;
+    left: 130px;
+}
+
+
+/* TRAVELLING SECTION STYLES */
+
+.travelling-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    color: var(--secondary-color);
+    gap: 50px;
+}
+
+.travelling-image, .travelling-content{
+    flex: 1;
+    align-self: center;
+}
+
+.travelling-heading-text{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 376px;
+    height: 72px;
+    margin-bottom: 10px;
+}
+
+.travelling-para-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 400px;
+    height: 144px;
+}
+
+.travelling-image > img{
+    position: relative;
+    left: 250px;
+}
+
+.travel-line{
+    position: relative;
+    top: -75px;
+    left: 182.5px;
+}
+.travel-suv{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 1390px;
+    left: 165.2px;
+
+}
+
+
+/* SAVE MONEY SECTION STYLES */
+.save-money-container{
+    display: flex;
+    background-image: url('/assets/images/save-money-bg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #E3F5F4;
+
+    width: 100%;
+    height: 100vh;
+    margin-top: -45px;
+    gap: 50px;
+}
+
+.save-money-content, .save-money-image{
+    align-self: center;
+}
+
+.save-money-image{
+    flex: 2;
+    
+}
+
+.save-money-content{
+    flex: 1;
+    margin-left: 260px;
+
+}
+
+
+.save-money-heading-text{
+    width: 395px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+
+.save-money-para-text{
+    width: 400px;
+    height: 96px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+/* USING APP STYLES */
+.using-app{
+    height: 100vh;
+    padding-top: 70px;
+}
+
+.using-app-dots{
+    position: relative;
+    top: -92px;
+    left: 1330px;
+}
+.using-app-header{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+
+.using-app-main-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    padding: 0px 100px 0px 100px;
+}
+
+
+.using-app-main-content > div {
+    width: 253px;
+    height: 163px;
+
+}
+
+/* FOOTER STYLE  */
+footer{
+    width: 100%;
+    height: 184px;
+    background-color: #EEEEEE;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 0px 100px;
+    align-items: center;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+
+
+/* ////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////// */
+
+@media (max-width: 560px) {
+
+
+    header > img {
+        top: 40px;
+        left: 40px;
+    }
+    
+
+    /* HERO SECTION STYLES */
+
+    .hero{
+        height: 103vh;
+    }
+
+    .hero-content{
+        flex-direction: column;
+    }
+
+    .hero-text{
+        flex: 2;
+    }
+
+    .hero-image{
+        flex: 1;
+        position: relative;
+        height: 90vh;
+        top: 120px;
+        left: -40px;
+    }
+
+    .hero-image > .main-image {
+        /* width: 200px; */
+        height: 400px;
+    }
+    
+    
+    .hero-tiny-image1, .hero-tiny-image2, .hero-tiny-image3, .hero-tiny-image4 {
+        position: absolute;
+        height: 60px;
+    }
+
+    .hero-tiny-image1{
+        top: 10px;
+        left: 390px;
+    }
+    .hero-tiny-image2{
+        top: 160px;
+        left: 17px;
+    }
+    .hero-tiny-image3{
+        bottom: 280px;
+        left: 345px;
+    }
+    .hero-tiny-image4{
+        bottom: 145px;
+        left: 55px;
+    }
+
+    .hero-heading-text{
+        width: 450px;
+        top: 150px;
+        left: 60px;
+    }
+
+    .hero-para-text{
+        width: 450px;
+        top: 180px;
+        left: 60px;
+    }
+
+
+    .hero-arrow{
+        position: relative;
+        top: 170px;
+        left: 15px;
+        width: 30px;
+        
+    }
+
+    .hero-line{
+        position: relative;
+        top: 340px;
+        left: 130px;
+    }
+
+
+
+        /* TRAVELLING SECTION STYLES */
+
+    .travelling-container{
+        height: 200vh;
+        margin-top: 0px;
+        flex-direction: column;
+    }
+
+
+    
+    .travel-line{
+        position: absolute;
+        top: 0px;
+        left: 20px;
+        width: 1px;
+        height: 500vh;
+    }
+    .travel-suv{
+        position: absolute;
+        width: 48px;
+        height: 48px;
+        top: 1390px;
+        left: 165.2px;
+        z-index: 1000;
+        
+    }
+    .travelling-image > img{
+        left: 0px;
+        top: 370px;
+    }
+
+    .travelling-content{
+        position: relative;
+        bottom: -200px;
+    }
+
+
+    
+    /* SAVE MONEY SECTION STYLES */
+    .save-money-container{
+        height: 140vh;
+        margin-top: 0px;
+        flex-direction: column;
+    }
+
+    .save-money-image{
+        padding-bottom: 140px;
+        
+    }
+
+    .save-money-content{
+        margin-left: 0px;
+        padding-top: 100px;
+
+    }
+
+
+
+    /* USING APP STYLES */
+    .using-app{
+        padding-top: 40px;
+        height: 120vh;
+    }
+
+    .using-app-dots{
+        top: -62px;
+        left: 450px;
+    }
+
+    .using-app-main-content{
+        padding: 50px 50px 0px 50px;
+        margin-top: 0px;
+        flex-direction: column;
+    }
+
+    .using-app-main-content > div {
+        width: 400px;
+    }
+
+    
+    footer{
+        padding: 0px 50px 0px 50px;
+    }
+}
+
+
+
+
+
+@media (max-width: 380) {
+ 
+    
+
+
+
+}
